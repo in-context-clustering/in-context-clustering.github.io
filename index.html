@@ -53,7 +53,7 @@
 <!--Pipeline -->
 <section class="hero is-small">
   <div class="container is-max-desktop">
-    <h2 class="title is-3"><br>Visualization of Attention</h2>
+    <h2 class="title is-3"><br>S1. Visualization of Attention</h2>
     <h5> Heatmap visualization of average attention scores of each data point to be clustered. Darker shades indicate higher attention scores. The x-axis and y-axis represent ground truth cluster labels. Attention maps in intermediate layers show similar salient patterns of clusters, while the attnetion in the beginning and end layers show vertical-slash patterns. </h5>
     <div class="hero-body">
       <img src="static/images/attention_viz1.png" alt=""/>
@@ -68,7 +68,7 @@
 <!--Pipeline -->
 <section class="hero is-small">
   <div class="container is-max-desktop">
-    <h2 class="title is-3"><br>Multi-Conditioned Image Clustering</h2>
+    <h2 class="title is-3"><br>S2. Multi-Conditioned Image Clustering</h2>
     <h5> LLMs are capable of producing different clustering given different conditions. The color of the frame outside each image represents the predicted cluster label.</h5>
     <div class="hero-body">
       <img src="static/images/multi11.png" alt=""/>
@@ -85,7 +85,7 @@
   <!--Pipeline -->
 <section class="hero is-small">
   <div class="container is-max-desktop">
-    <h2 class="title is-3"><br>Selective Attention Allocation</h2>
+    <h2 class="title is-3"><br>S3. Selective Attention Allocation</h2>
     <h5> Visualization of attention allocation when deciding the cluster for the first image. Darker shades indicate higher attention scores. LLMs allocates attention differently to different patches across different layers. </h5>
     <div class="hero-body">
       <img src="static/images/img_attention_viz.png" alt=""/>
@@ -93,6 +93,19 @@
   </div>
 </section>
 <!-- Pipeline -->
+
+  <!--Pipeline -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3"><br>S4. Additional results of CD-FSL datasets</h2>
+    <h5> ICC achieves comparable performance with k-means and significantly outperformns IC|TC (for more details about the data and baselines, please check sec4.2 of our submission). Since the captioning model used by IC|TC is not specialized in plant leaves and satellite images, it fails to provide useful information for clustering, indicating the limitation of the IC|TC apporach.</h5>
+    <div class="hero-body">
+      <img src="static/images/add_cdfsl.png" alt=""/>
+    </div>
+  </div>
+</section>
+<!-- Pipeline -->
+
 
 
   </body>
